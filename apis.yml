@@ -1,7 +1,6 @@
 aid: bandier
 name: Bandier
-description: 'Bandier is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Bandier is a fashion retailer offering a curated selection of contemporary clothing, accessories, and lifestyle products. The brand focuses on delivering high-quality, trend-forward items for men and women, emphasizing sustainability and community engagement. Their online presence provides news, partner updates, and a platform for customers to stay informed about new collections and initiatives.'
 url: https://raw.githubusercontent.com/api-evangelist/bandier/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-27'
 modified: '2026-09-27'
 tags:
 - Company
+- Fashion
+- Retail
+- E-commerce
+- Activewear
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bandier-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bandier
+  url: https://www.bandier.com
